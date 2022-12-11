@@ -871,6 +871,8 @@ button,
       }
     }
 
+  
+
 /* Signup Form */
 #signup-form {
   /* display: -moz-flex;
@@ -975,12 +977,9 @@ button,
     #footer {
       bottom: 1.25em;
       left: 1.25em; } }
-  @media screen and (max-height: 640px) {
+  @media screen and (max-height: 520px) {
     #footer {
-      bottom: auto;
-      left: auto;
-      margin: 1em 0 0 0;
-      position: relative; } }
+      display:none } }
 
       .flex-parent-element {
         display: flex;
