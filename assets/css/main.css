@@ -845,7 +845,7 @@ button,
   .bottomright {
     width: 150px!important;
     height:150px!important;
-    background-image: url("https://res.cloudinary.com/daeuqb9sq/image/upload/w_150/SMSCornerLogo_yqwlja.png")!important;
+    background-image: url("https://res.cloudinary.com/daeuqb9sq/image/upload/w_150,o_65/SMSCornerLogo_yqwlja.png")!important;
    } }
 
 @media screen and (max-width: 480px) {
@@ -864,7 +864,7 @@ button,
     .bottomright {
       width: 100px!important;
       height:100px!important;
-      background-image: url("https://res.cloudinary.com/daeuqb9sq/image/upload/w_100/SMSCornerLogo_yqwlja.png")!important;
+      background-image: url("https://res.cloudinary.com/daeuqb9sq/image/upload/w_100,o_65/SMSCornerLogo_yqwlja.png")!important;
      }
   }
 
@@ -884,7 +884,7 @@ button,
       .bottomright {
         width: 75px!important;
         height:75px!important;
-        background-image: url("https://res.cloudinary.com/daeuqb9sq/image/upload/w_75/SMSCornerLogo_yqwlja.png")!important;
+        background-image: url("https://res.cloudinary.com/daeuqb9sq/image/upload/w_75,o_65/SMSCornerLogo_yqwlja.png")!important;
        }
     }
 
@@ -1031,18 +1031,6 @@ button,
         color: #fff !important;
       }
 
-      
-
-    .bottomright {
-      position: fixed;
-      right: 0px; bottom: 0px;
-      width: 200px;
-      height:200px;
-      padding: 5px;
-      background-image: url("https://res.cloudinary.com/daeuqb9sq/image/upload/w_200/SMSCornerLogo_yqwlja.png");
-      background-position: right bottom; /*Positioning*/
-      background-repeat: no-repeat; /*Prevent showing multiple background images*/}
-
 
 #thumbs {   
   
@@ -1072,6 +1060,6 @@ button,
   width: 200px;
   height:200px;
   padding: 5px;
-  background-image: url("https://res.cloudinary.com/daeuqb9sq/image/upload/w_200/SMSCornerLogo_yqwlja.png");
+  background-image: url("https://res.cloudinary.com/daeuqb9sq/image/upload/w_200,o_65/SMSCornerLogo_yqwlja.png");
   background-position: right bottom; /*Positioning*/
   background-repeat: no-repeat; /*Prevent showing multiple background images*/}
