@@ -49,15 +49,6 @@ body {
     z-index: 3;
 }
 
-.bottomright {
-  position: fixed;
-  right: 0px; bottom: 0px;
-  width: 200px;
-  height:200px;
-  padding: 5px;
-  background-image: url("https://res.cloudinary.com/daeuqb9sq/image/upload/w_200/SMSCornerLogo_yqwlja.png");
-  background-position: right bottom; /*Positioning*/
-  background-repeat: no-repeat; /*Prevent showing multiple background images*/}
 
 ol, ul {
   list-style: none; }
@@ -850,7 +841,12 @@ button,
   height: 40px;
   margin-top:-1px;
   margin-right: 5px
-  } }
+  }
+  .bottomright {
+    width: 150px!important;
+    height:150px!important;
+    background-image: url("https://res.cloudinary.com/daeuqb9sq/image/upload/w_150/SMSCornerLogo_yqwlja.png")!important;
+   } }
 
 @media screen and (max-width: 480px) {
   #header {
@@ -865,6 +861,11 @@ button,
     margin-top:-1px;
     margin-right: 3px
     }
+    .bottomright {
+      width: 100px!important;
+      height:100px!important;
+      background-image: url("https://res.cloudinary.com/daeuqb9sq/image/upload/w_100/SMSCornerLogo_yqwlja.png")!important;
+     }
   }
 
   @media screen and (max-width: 318px) {
@@ -880,6 +881,11 @@ button,
       margin-top:-1px;
       margin-right: 2px
       }
+      .bottomright {
+        width: 75px!important;
+        height:75px!important;
+        background-image: url("https://res.cloudinary.com/daeuqb9sq/image/upload/w_75/SMSCornerLogo_yqwlja.png")!important;
+       }
     }
 
   
@@ -1059,3 +1065,13 @@ button,
   font-size: 0;
   line-height: 0
 }
+
+.bottomright {
+  position: fixed;
+  right: 0px; bottom: 0px;
+  width: 200px;
+  height:200px;
+  padding: 5px;
+  background-image: url("https://res.cloudinary.com/daeuqb9sq/image/upload/w_200/SMSCornerLogo_yqwlja.png");
+  background-position: right bottom; /*Positioning*/
+  background-repeat: no-repeat; /*Prevent showing multiple background images*/}
