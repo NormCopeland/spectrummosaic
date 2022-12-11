@@ -49,6 +49,16 @@ body {
     z-index: 3;
 }
 
+.bottomright {
+  position: fixed;
+  right: 0px; bottom: 0px;
+  width: 200px;
+  height:200px;
+  padding: 5px;
+  background-image: url("https://res.cloudinary.com/daeuqb9sq/image/upload/w_200/SMSCornerLogo_yqwlja.png");
+  background-position: right bottom; /*Positioning*/
+  background-repeat: no-repeat; /*Prevent showing multiple background images*/}
+
 ol, ul {
   list-style: none; }
 
