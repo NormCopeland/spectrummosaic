@@ -831,6 +831,15 @@ button,
 #header a {
   color: inherit; }
 
+  @media screen and (min-width: 1681px) {
+    
+    .logo {
+      width: 70px;
+    height: 70px;
+    margin-bottom:0x;
+    margin-right: 5px
+    }}
+
 @media screen and (max-width: 1036px) {
   #header h1 {
     font-size: 2em; }
